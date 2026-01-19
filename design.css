@@ -1,0 +1,23 @@
+html {
+    background-color: #fff;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+}
+
+header {
+    margin-bottom: 100px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+header h1 {
+    border-bottom: #000 3px solid;
+}
+.texts {
+    border-bottom: #000 2px solid;
+}
+.date {
+    font-size: 15px;
+    color: #797979;
+}
