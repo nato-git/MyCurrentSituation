@@ -6,7 +6,7 @@ html {
 }
 
 header {
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     font-size: 30px;
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@ header h1 {
 }
 .texts {
     border-bottom: #000 2px solid;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .textsFirst {
     border-top: #000 2px solid;
@@ -24,4 +24,6 @@ header h1 {
 .date {
     font-size: 15px;
     color: #797979;
+    display: flex;
+    justify-content: right;
 }
