@@ -16,6 +16,7 @@ header h1 {
 }
 .texts {
     border-bottom: #000 2px solid;
+    margin-bottom: 10px;
 }
 .date {
     font-size: 15px;
