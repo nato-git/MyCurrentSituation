@@ -7,10 +7,12 @@ async function load(){
     const csvContent = rows.map((rows) => {
         const column = rows.split(',');
         return{
-            日付: column[0],
-            内容: column[1]
+            タイムスタンプ: column[0],
+            日付: column[1],
+            内容: column[2]
         }
     })
+    csvContent.shift();
     for(const Intext of csvContent){
         html.innerHTML += `
             <div class="texts">
