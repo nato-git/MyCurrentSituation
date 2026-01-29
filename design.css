@@ -6,10 +6,9 @@ html {
 }
 
 header {
-    margin-bottom: 60px;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
 header h1 {
     border-bottom: #000 3px solid;
