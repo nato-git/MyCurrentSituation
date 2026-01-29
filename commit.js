@@ -1,4 +1,5 @@
 const html = document.getElementById('textContent');
+var texts = '';
 
 async function load(){
     //誰も入力せんといてね
@@ -14,13 +15,15 @@ async function load(){
         }
     })
     csvContent.shift();
+    csvContent.sort((a,b) => new Date(b.タイムスタンプ) - new Date(a.タイムスタンプ));
     for(const Intext of csvContent){
-        html.innerHTML += `
+        texts += `
             <div class="texts">
                 <p>${Intext.内容}</p>
                 <p class="date">${Intext.日付}</p>
             </div>`
     }
+    html.innerHTML = texts;
 }
 
 load();
