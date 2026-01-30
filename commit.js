@@ -15,7 +15,7 @@ async function load(){
         }
     })
     csvContent.shift();
-    csvContent.sort((a,b) => new Date(b.タイムスタンプ) - new Date(a.タイムスタンプ));
+    csvContent.sort((a,b) => new Date(b.日付) - new Date(a.日付));
     for(const Intext of csvContent){
         texts += `
             <div class="texts">
